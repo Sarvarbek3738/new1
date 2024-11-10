@@ -60,6 +60,9 @@ header{
     line-height: 61px;
     padding-bottom: 35px;
 }
+.hero{
+    padding-bottom: 100px;
+}
 .hero h1 span{
     color: #3579F4;
 }
@@ -102,4 +105,11 @@ header{
 }
 .box1-1 img{
     width: 100%;
+}
+.section2{
+
+}
+.box2-1{
+    display: flex;
+    justify-content: space-between;
 }
