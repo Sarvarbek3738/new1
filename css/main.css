@@ -79,6 +79,7 @@ header{
     background-color: #3579F4;
     font-size: 16px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .section1 img{
     padding-top: 150px;
@@ -107,9 +108,124 @@ header{
     width: 100%;
 }
 .section2{
-
+    padding-bottom: 100px;
+    padding-top: 35px;
 }
-.box2-1{
+.section2 p{
+    padding-bottom: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3579F4;
+}
+.box2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+.box2_1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+.box2_2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+.box2-1{
+    width: 280px;
+    height: 250px;
+    background-image: url(../imgs/2-1.png);
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: -4px 4px 16px 0px #0000001A;
+
+}
+.box2-1:nth-child(2){
+    width: 280px;
+    height: 250px;
+    background-image: url(../imgs/2-2.png);
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: -4px 4px 16px 0px #0000001A;
+}
+.box2-1 h3{
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-left: 27px;
+    font-size: 24px;
+}
+.box2-2{
+    width: 587px;
+    height: 250px;
+    background-image: url(../imgs/2-3.png);
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: -4px 4px 16px 0px #0000001A;
+}
+.box2-2 h3{
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-left: 27px;
+    font-size: 24px;
+}
+.box2_1 .box2-2{
+    background-image: url(../imgs/2-4.png);
+    
+}
+
+.box2_1 .box2-1{
+    background-image: url(../imgs/2-6.png);
+    
+}
+
+.box2_1 .box2-1:nth-child(2){
+    background-image: url(../imgs/2-5.png);
+    
+}
+
+
+.box2_2 .box2-2{
+    background-image: url(../imgs/2-9.png);
+    background-size: 100%;
+    background-position: bottom;
+
+    
+}
+
+.box2_2 .box2-1{
+    background-image: url(../imgs/2-7.png);
+    background-position: bottom;
+    
+}
+
+.box2_2 .box2-1:nth-child(2){
+    background-image: url(../imgs/2-8.png);
+    
+}
+.box2_3{
+    text-align: center;
+    padding-top: 47px;
+    padding-bottom: 40px;
+}
+.box2_3 button{
+    padding: 24px 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: #F0F0FA;
+    color: #8C8C8C;
+    cursor: pointer;
 }
