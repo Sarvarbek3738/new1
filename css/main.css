@@ -1,39 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
     transition: all .25s ease;
 }
-.container{
+
+.container {
     max-width: 1200px;
-    margin: 0  auto;
+    margin: 0 auto;
 }
-nav .container{
+
+nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
 }
-.link{
+
+.link {
     display: flex;
     gap: 42px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.link a{
+
+.link a {
     color: black;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
 }
-.but{
+
+.but {
     display: flex;
     gap: 10px;
 }
-.but button{
+
+.but button {
     padding: 10px;
     border: none;
     background-color: #3579F4;
@@ -43,38 +51,46 @@ ul{
     cursor: pointer;
 
 }
-.but i{
+
+.but i {
     font-size: 20px;
     color: white;
 }
-nav span{
+
+nav span {
     color: #3579F4;
     cursor: pointer;
 }
-header{
+
+header {
     background-image: url(../imgs/img1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
 }
-.hero h1{
+
+.hero h1 {
     padding-top: 110px;
     font-size: 54px;
     line-height: 61px;
     padding-bottom: 35px;
 }
-.hero{
+
+.hero {
     padding-bottom: 100px;
 }
-.hero h1 span{
+
+.hero h1 span {
     color: #3579F4;
 }
-.hero p{
+
+.hero p {
     font-size: 16px;
     padding-bottom: 50px;
     line-height: 24px;
 }
-.hero button{
+
+.hero button {
     padding: 24px 60px;
     border: none;
     border-radius: 10px;
@@ -84,15 +100,18 @@ header{
     cursor: pointer;
     text-transform: uppercase;
 }
-.section1 img{
+
+.section1 img {
     padding-top: 150px;
     width: 100%;
     margin: 0 auto;
 }
-.box1{
+
+.box1 {
     position: relative;
 }
-.box1 h3{
+
+.box1 h3 {
     position: absolute;
     bottom: 49px;
     left: 49px;
@@ -100,47 +119,54 @@ header{
     font-size: 28px;
     font-weight: 500;
 }
-.box1-1{
+
+.box1-1 {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 200px;
     left: 550px;
 }
-.box1-1 img{
+
+.box1-1 img {
     width: 100%;
 }
-.section2{
+
+.section2 {
     padding-bottom: 100px;
     padding-top: 35px;
 }
-.section2 p{
+
+.section2 p {
     padding-bottom: 60px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     color: #3579F4;
 }
-.box2{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 23px;
-}
-.box2_1{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 23px;
-}
-.box2_2{
+
+.box2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 23px;
 }
 
-.box2-1{
+.box2_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+.box2_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+.box2-1 {
     width: 280px;
     height: 250px;
     padding-top: 40px;
@@ -153,18 +179,19 @@ header{
     border-radius: 20px;
     box-shadow: -4px 4px 16px 0px #0000001A;
     position: relative;
-   
+
 
 
 }
 
-.box2-1-img{
+.box2-1-img {
     position: absolute;
     right: -11px;
     top: -4px;
 
 }
-.box2-1:nth-child(2){
+
+.box2-1:nth-child(2) {
     width: 280px;
     height: 250px;
     background-image: url(../imgs/2-2.png);
@@ -174,14 +201,16 @@ header{
     border-radius: 20px;
     box-shadow: -4px 4px 16px 0px #0000001A;
 }
-.box2-1 h3{
+
+.box2-1 h3 {
     /* padding-top: 40px;
     padding-bottom: 200px;
     padding-left: 27px;
     font-size: 24px; */
     font-size: 24px;
 }
-.box2-2{
+
+.box2-2 {
     width: 587px;
     height: 250px;
     background-image: url(../imgs/2-3.png);
@@ -191,52 +220,56 @@ header{
     border-radius: 20px;
     box-shadow: -4px 4px 16px 0px #0000001A;
 }
-.box2-2 h3{
+
+.box2-2 h3 {
     padding-top: 40px;
     padding-bottom: 200px;
     padding-left: 27px;
     font-size: 24px;
 }
-.box2_1 .box2-2{
+
+.box2_1 .box2-2 {
     background-image: url(../imgs/2-4.png);
-    
+
 }
 
-.box2_1 .box2-1{
+.box2_1 .box2-1 {
     background-image: url(../imgs/2-6.png);
-    
+
 }
 
-.box2_1 .box2-1:nth-child(2){
+.box2_1 .box2-1:nth-child(2) {
     background-image: url(../imgs/2-5.png);
-    
+
 }
 
 
-.box2_2 .box2-2{
+.box2_2 .box2-2 {
     background-image: url(../imgs/2-9.png);
     background-size: 100%;
     background-position: bottom;
 
-    
+
 }
 
-.box2_2 .box2-1{
+.box2_2 .box2-1 {
     background-image: url(../imgs/2-7.png);
     background-position: bottom;
-    
+
 }
 
-.box2_2 .box2-1:nth-child(2){
+.box2_2 .box2-1:nth-child(2) {
     background-image: url(../imgs/2-8.png);
-    
+
 }
-.box2_3{
+
+.box2_3 {
     text-align: center;
     padding-top: 47px;
     padding-bottom: 40px;
 }
-.box2_3 button{
+
+.box2_3 button {
     padding: 24px 60px;
     font-size: 16px;
     font-weight: 700;
@@ -248,15 +281,17 @@ header{
     transition: all .5s ease;
 }
 
-.section3{
+.section3 {
     padding-bottom: 100px;
 }
-.section3 h1{
+
+.section3 h1 {
     padding-bottom: 65px;
     font-size: 46px;
     font-weight: 700;
 }
-.box3-1{
+
+.box3-1 {
     width: 280px;
     text-align: center;
     border: 1px solid #3579F4;
@@ -264,45 +299,55 @@ header{
     border-radius: 10px;
     height: 280px;
 }
-.box3-1:hover{
+
+.box3-1:hover {
     box-shadow: 0px 0px 15px 5px rgb(190, 188, 188);
 }
-.box3-1 img{
+
+.box3-1 img {
     padding-bottom: 15px;
 }
-.box3-1 h3{
+
+.box3-1 h3 {
     font-size: 24px;
     padding-bottom: 10px;
     font-weight: normal;
 }
-.box3-1 p{
+
+.box3-1 p {
     color: gray;
 }
-.box3{
+
+.box3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.section4{
+
+.section4 {
     background-color: #3579F4;
     padding-bottom: 100px;
 }
-.section4 h1{
+
+.section4 h1 {
     padding-top: 92px;
     font-size: 46px;
     font-weight: 700;
     color: white;
 }
-.section4 h6{
+
+.section4 h6 {
     font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
     color: white;
 }
-.box4-1{
+
+.box4-1 {
     padding-top: 30px;
 }
-.box4-1 input{
+
+.box4-1 input {
     background-color: #5591FF;
     border: none;
     border-radius: 10px;
@@ -312,24 +357,30 @@ header{
     padding-right: 200px;
     cursor: pointer;
 }
-.box4-1 div input:nth-child(3){
+
+.box4-1 div input:nth-child(3) {
     padding-bottom: 50px;
 }
-.box4-1 div{
+
+.box4-1 div {
     padding-bottom: 20px;
 }
-input::placeholder{
+
+input::placeholder {
     color: white;
 }
-.checkbox span{
+
+.checkbox span {
     color: white;
     padding-left: 10px;
     cursor: pointer;
 }
-.btn4{
+
+.btn4 {
     padding-top: 40px;
 }
-.btn4 button{
+
+.btn4 button {
     padding: 18px 118px;
     border-radius: 10px;
     border: none;
@@ -337,8 +388,53 @@ input::placeholder{
     font-weight: 700;
     font-size: 16px;
 }
-.box4-0{
+
+.box4-0 {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+}
+
+footer {
+    background-color: #18162D;
+    padding-top: 56px;
+}
+
+.ox1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ox2 {
+    display: flex;
+    justify-content: center;
+    gap: 168px;
+}
+
+.ox2 a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ox2 li {
+    padding-bottom: 30px;
+}
+
+.ox3 {
+    color: white;
+}
+
+.ox3 i {
+    font-size: 30px;
+    padding-bottom: 17px;
+    margin: 10px;
+}   
+
+.ox3 p {
+    padding-bottom: 20px;
+}
+.ox4 p{
+    color: gray;
+    padding-bottom: 30px;
 }
