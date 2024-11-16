@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    transition: all .25s ease;
 }
 .container{
     max-width: 1200px;
@@ -140,12 +143,25 @@ header{
 .box2-1{
     width: 280px;
     height: 250px;
-    background-image: url(../imgs/2-1.png);
-    background-size: 100%;
-    background-position: right;
-    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 29px;
+    /* height: 250px; */
+    /* background-image: url(../imgs/2-1.png);
+    background-size: 100%; */
+    /* background-position:calc(100% -40px); */
+    /* background-repeat: no-repeat; */
     border-radius: 20px;
     box-shadow: -4px 4px 16px 0px #0000001A;
+    position: relative;
+   
+
+
+}
+
+.box2-1-img{
+    position: absolute;
+    right: -11px;
+    top: -4px;
 
 }
 .box2-1:nth-child(2){
@@ -159,9 +175,10 @@ header{
     box-shadow: -4px 4px 16px 0px #0000001A;
 }
 .box2-1 h3{
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-bottom: 200px;
     padding-left: 27px;
+    font-size: 24px; */
     font-size: 24px;
 }
 .box2-2{
@@ -228,4 +245,100 @@ header{
     background-color: #F0F0FA;
     color: #8C8C8C;
     cursor: pointer;
+    transition: all .5s ease;
+}
+
+.section3{
+    padding-bottom: 100px;
+}
+.section3 h1{
+    padding-bottom: 65px;
+    font-size: 46px;
+    font-weight: 700;
+}
+.box3-1{
+    width: 280px;
+    text-align: center;
+    border: 1px solid #3579F4;
+    padding: 20px 5px;
+    border-radius: 10px;
+    height: 280px;
+}
+.box3-1:hover{
+    box-shadow: 0px 0px 15px 5px rgb(190, 188, 188);
+}
+.box3-1 img{
+    padding-bottom: 15px;
+}
+.box3-1 h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.box3-1 p{
+    color: gray;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4{
+    background-color: #3579F4;
+    padding-bottom: 100px;
+}
+.section4 h1{
+    padding-top: 92px;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+}
+.section4 h6{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: white;
+}
+.box4-1{
+    padding-top: 30px;
+}
+.box4-1 input{
+    background-color: #5591FF;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 200px;
+    cursor: pointer;
+}
+.box4-1 div input:nth-child(3){
+    padding-bottom: 50px;
+}
+.box4-1 div{
+    padding-bottom: 20px;
+}
+input::placeholder{
+    color: white;
+}
+.checkbox span{
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.btn4{
+    padding-top: 40px;
+}
+.btn4 button{
+    padding: 18px 118px;
+    border-radius: 10px;
+    border: none;
+    color: #8C8C8C;
+    font-weight: 700;
+    font-size: 16px;
+}
+.box4-0{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
