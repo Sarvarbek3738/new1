@@ -301,7 +301,7 @@ header {
 }
 
 .box3-1:hover {
-    box-shadow: 0px 0px 15px 5px rgb(190, 188, 188);
+    box-shadow: -4px 4px 16px 0px #0000001A;    
 }
 
 .box3-1 img {
@@ -417,6 +417,7 @@ footer {
     text-transform: uppercase;
 }
 
+
 .ox2 li {
     padding-bottom: 30px;
 }
@@ -436,5 +437,5 @@ footer {
 }
 .ox4 p{
     color: gray;
-    padding-bottom: 30px;
+    padding-bottom: 30px;   
 }
