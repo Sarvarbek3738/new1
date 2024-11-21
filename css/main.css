@@ -12,6 +12,12 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+nav{
+    position: fixed;
+    z-index: 999;
+    background-color: white ;
+    width: 100%;
+}
 
 nav .container {
     display: flex;
@@ -19,6 +25,7 @@ nav .container {
     align-items: center;
     padding: 30px 0px;
 }
+
 
 .link {
     display: flex;
@@ -35,10 +42,15 @@ ul {
     font-size: 16px;
     text-transform: uppercase;
 }
-
 .but {
     display: flex;
     gap: 10px;
+}
+.but a :hover{
+    transform: scale(1.1);
+}
+.link li :hover{
+    color: #3579F4;
 }
 
 .but button {
@@ -52,14 +64,18 @@ ul {
 
 }
 
+
 .but i {
     font-size: 20px;
     color: white;
 }
-
-nav span {
-    color: #3579F4;
+.til span {
+    color: black;
     cursor: pointer;
+
+}
+.til span :hover {
+    color: #3579F4;
 }
 
 header {
@@ -70,7 +86,7 @@ header {
 }
 
 .hero h1 {
-    padding-top: 110px;
+    padding-top: 300px;
     font-size: 54px;
     line-height: 61px;
     padding-bottom: 35px;
@@ -99,6 +115,9 @@ header {
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
+}
+.hero button:hover{
+    background-color:#5591FF ;
 }
 
 .section1 img {
@@ -134,11 +153,12 @@ header {
 
 .section2 {
     padding-bottom: 100px;
-    padding-top: 35px;
+    padding-top: 100px;
 }
 
 .section2 p {
     padding-bottom: 60px;
+    
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -280,6 +300,10 @@ header {
     cursor: pointer;
     transition: all .5s ease;
 }
+.box2_3 button:hover{
+    background-color:#5591FF ;
+    color: white;
+}
 
 .section3 {
     padding-bottom: 100px;
@@ -389,6 +413,11 @@ input::placeholder {
     font-size: 16px;
 }
 
+.btn4 button:hover{
+    background-color:#5591FF ;
+    color: white;
+}
+
 .box4-0 {
     display: flex;
     justify-content: space-between;
@@ -417,9 +446,14 @@ footer {
     text-transform: uppercase;
 }
 
-
+.ox2-1{
+    padding-top: 40px;
+}
 .ox2 li {
     padding-bottom: 30px;
+}
+.ox2 a:hover{
+    text-decoration: underline;
 }
 
 .ox3 {
